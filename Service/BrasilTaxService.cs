@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Interface_CSharp.Service
 {
-    class BrasilTaxService
+    class BrasilTaxService : ITaxService
     {
         public double Tax(double amount)
         {
